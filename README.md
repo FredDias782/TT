@@ -1,1 +1,9 @@
-https://prod.liveshare.vsengsaas.visualstudio.com/join?CA2B1C8F049ECB53FEBC6BFC13D8952174B3
+import javazoom.jlayer.player.Player;
+import java.io.FileInputStream;
+import java.util.Scanner;
+
+public class Main{
+   public static void main(String[] args) {
+      try{
+       Scanner sc = new Scanner(System.in);
+       Playlist playlist = new Playlist();
