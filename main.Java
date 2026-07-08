@@ -1,27 +1,15 @@
 import javazoom.jlayer.player.Player;
 import java.io.FileInputStream;
+import java.util.Scanner;
 
-public class Main{
-   public static void main(String[] args) {
-      try{
-      FileInputStream arquivo = new FileInputStream();
-      Player player = new Player();
-
-      System.out.println("Tocando música...");
-      player.play();
-
-      } catch (Exception e) {
-         System.out.println("Erro ao tocar música: " + e.getMessage());
-      }
-}
+import javazoom.jlayer.player.Player;
+import java.io.FileInputStream;
+import java.util.Scanner;
 
 public class Main {
-
-   public static void main(String[] args) {
-
-      Scanner sc = new Scanner(System.in);
-      Playlist playlist = new Playlist();
-
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        Playlist playlist = new Playlist();
       int opcao;
 
       do {
